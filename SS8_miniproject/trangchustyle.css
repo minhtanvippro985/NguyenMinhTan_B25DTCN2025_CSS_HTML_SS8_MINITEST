@@ -1,0 +1,147 @@
+#headinger{
+    background-color: rgb(247, 199, 128);
+    text-align: center;
+    margin: 0px;
+    padding: 35px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title{
+    color: rgb(104, 17, 17);
+  
+   
+}
+
+
+#title{
+    color: rgb(104, 17, 17);
+   
+}
+
+
+
+#menu{
+    background-color: rgb(255, 189, 189);
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+.hoverable{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(32, 17, 17, 0.548);
+    display: inline;
+    transition: 0.3s ease;
+    
+}
+
+.hoverable:hover{
+    transform: scale(1.1);
+    background-color: brown;
+    transition: 0.3s ease;
+    margin: 1;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 5px;
+    
+}
+
+
+.img_contain{
+    position: relative;
+    
+}
+
+
+.imger{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+
+.smallbox{
+    position: absolute;
+    border-radius: 20px;
+    right: 20;
+    bottom: 30px;
+    padding: 26px;
+    background-color: rgba(223, 232, 240,0.75);
+    width: 35%;
+    
+}
+
+
+.hero-containter{
+    margin: 34;
+    text-align: center;
+     display: flex;
+    justify-content: center;   
+    gap: 30px;        
+   
+}
+
+
+.card{
+   background-color: rgb(221, 239, 255);
+    padding: 22px;
+    width: 280px;              
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0 , 0.25);
+    display: inline-block; 
+    transition: all 0.3s ease-out;
+    
+}
+
+.card h4{
+    color: rgba(124, 77, 23, 0.918);
+}
+
+
+.another{
+      text-align: center;     
+    margin-top: 40px;
+}
+
+
+.t {
+    margin-top: 30px;
+    color: #7a2b2b;
+    display: block;
+    text-align: center;
+}
+
+#icon{
+    text-align: center;
+    padding: 10px;
+}
+
+#icon::before{
+    content: "✔";
+}
+
+
+
+footer{
+    background-color: #7a2b2b;
+    color: aliceblue;
+   margin-top: 30px;
+   padding: 30px;
+   text-align: center;
+}
+
+.card:hover{
+    background-color: antiquewhite;
+    transform: translateY(-3px);
+    transition: all 0.25s;
+}

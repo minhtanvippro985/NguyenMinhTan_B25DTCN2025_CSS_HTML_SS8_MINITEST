@@ -1,0 +1,134 @@
+#headinger{
+    background-color: rgb(247, 199, 128);
+    text-align: center;
+    margin: 0px;
+    padding: 35px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title{
+    color: rgb(104, 17, 17);
+  
+   
+}
+
+
+#title{
+    color: rgb(104, 17, 17);
+   
+}
+
+
+
+#menu{
+    background-color: rgb(255, 189, 189);
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+.hoverable{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(32, 17, 17, 0.548);
+    display: inline;
+    transition: 0.3s ease;
+    
+}
+
+.hoverable:hover{
+    transform: scale(1.1);
+    background-color: brown;
+    transition: 0.3s ease;
+    margin: 1;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 5px;
+    
+}
+
+
+.img_contain{
+    position: relative;
+    
+}
+
+
+.imger{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+
+.smallbox{
+    position: absolute;
+    border-radius: 20px;
+    left: 20;
+    bottom: 30px;
+    padding: 26px;
+    background-color: rgba(223, 232, 240,0.75);
+    width: 35%;
+    
+}
+
+
+
+
+
+
+.t {
+    margin-top: 30px;
+    color: #7a2b2b;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+#footerone {
+    background-color: #fcfccc;
+    color: rgba(175, 65, 51, 0.596);
+    padding: 10px;
+    text-align: center;
+}
+
+#footertwo {
+    background-color: #7a2b2b;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+}
+
+#footerone p{
+   padding: 30px;
+}
+
+#first{
+    padding: 30px;
+ 
+    text-align: center;
+}
+
+#first p{
+    padding: 20px;
+    font-size: small;
+}
+
+#second{
+    text-align: center;
+    padding: 80px;
+}
+
+#second p{
+    padding: 10px;
+}
